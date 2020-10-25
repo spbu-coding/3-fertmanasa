@@ -1,0 +1,38 @@
+Для переменных типа float:
+
+Delta: 0.00010000, deviation: 1.41276240                                                                                                                      
+Delta: 0.00005000, deviation: 0.70806706                                                                                                                      
+Delta: 0.00002500, deviation: 0.35403353                                                                                                                      
+Delta: 0.00001250, deviation: 0.17533089                                                                                                                      
+Delta: 0.00000625, deviation: 0.08766545                                                                                                                      
+Delta: 0.00000312, deviation: 0.04383272                                                                                                                      
+Delta: 0.00000156, deviation: 0.02360223                                                                                                                      
+Delta: 0.00000078, deviation: 0.01011524                                                                                                                      
+Delta: 0.00000039, deviation: 0.00674350                                                                                                                      
+Delta: 0.00000020, deviation: 0.00337175                                                                                                                      
+
+Для переменных типа double: 
+
+Delta: 0.00010000, deviation: 1.41421354                                                                                                                      
+Delta: 0.00005000, deviation: 0.70710677                                                                                                                      
+Delta: 0.00002500, deviation: 0.35355338                                                                                                                      
+Delta: 0.00001250, deviation: 0.17677669                                                                                                                      
+Delta: 0.00000625, deviation: 0.08838835                                                                                                                      
+Delta: 0.00000313, deviation: 0.04419417                                                                                                                      
+Delta: 0.00000156, deviation: 0.02209709                                                                                                                      
+Delta: 0.00000078, deviation: 0.01104854                                                                                                                      
+Delta: 0.00000039, deviation: 0.00552427                                                                                                                      
+Delta: 0.00000020, deviation: 0.00276214                                                                                                                      
+Delta: 0.00000010, deviation: 0.00138107                                                                                                                      
+Delta: 0.00000005, deviation: 0.00069053                                                                                                                      
+Delta: 0.00000002, deviation: 0.00034527                                                                                                                      
+Delta: 0.00000001, deviation: 0.00017263                                                                                                                      
+Delta: 0.00000001, deviation: 0.00008632                                                                                                                      
+Delta: 0.00000000, deviation: 0.00004316                                                                                                                      
+Delta: 0.00000000, deviation: 0.00002158                                                                                                                      
+Delta: 0.00000000, deviation: 0.00001079                                                                                                                      
+Delta: 0.00000000, deviation: 0.00000539                                                                                                                      
+Delta: 0.00000000, deviation: 0.00000270                                                                                                                      
+Delta: 0.00000000, deviation: 0.00000135
+
+Вывод: в определенный момент (при меньшей погрешности) из-за малой точности, обеспечиваемой типом float, программа входит в бесконечный цикл, тогда как подобной проблемы в случае с переменными типа double не случалось. Это является наглядным примерном разницы типов float и double.
